@@ -1,8 +1,8 @@
 [run]
-source = project_name
+source = thiiagoms_api
 
 [report]
 omit =
     */python?.?/*
     */site-packages/nose/*
-    project_name/__main__.py
+    thiiagoms_api/__main__.py

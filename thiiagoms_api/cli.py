@@ -4,7 +4,7 @@ import uvicorn
 from .app import app
 from .config import settings
 
-cli = typer.Typer(name="project_name API")
+cli = typer.Typer(name="thiiagoms_api API")
 
 
 @cli.command()
@@ -16,7 +16,7 @@ def run(
 ):  # pragma: no cover
     """Run the API server."""
     uvicorn.run(
-        "project_name.app:app",
+        "thiiagoms_api.app:app",
         host=host,
         port=port,
         log_level=log_level,
